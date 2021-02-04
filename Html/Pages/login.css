@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+
+.nav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 18px;
+}
+
+.nav-area li a:hover {
+  border-bottom: 2px solid #fff;
+  color: #333;
+}
+
+.logo h2 {
+  font-size: 30px;
+  color: #fff;
+  width: 100px;
+  float: left;
+  height: auto;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+
+body {
+  height: 100vh;
+  background: url("../../assets/img/landingBgImg.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+div.heading {
+  position: absolute;
+  width: 600px;
+  height: 150px;
+  margin: 5% 30%;
+  text-align: center;
+}
+
+.heading h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.container {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 10% 50%;
+  text-align: left;
+}
+
+.container form {
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=Signup.css.map */
