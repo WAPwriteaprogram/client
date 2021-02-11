@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  color: #fff;
+}
+
+body {
+  background-color: #dedede;
+  color: #333;
+}
+
+header nav ul li.profile {
+  float: left;
+}
+
+.title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.6rem;
+}
+
+.class {
+  max-width: 650px;
+  height: 150px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: lightgray;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.class h2 {
+  margin: 30px 0 6px 0;
+  text-align: center;
+}
+
+.class h2 a {
+  text-decoration: none;
+  color: black;
+}
