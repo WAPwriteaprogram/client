@@ -9,7 +9,7 @@
 }
 
 header {
-  background: url("{{url_for('static',filename='assets/img/landingBgImg.jpg')}}");
+  background: url(img/landingBgImg.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -69,4 +69,3 @@ header {
   font-size: 14px;
   margin-top: 20px;
 }
-/*# sourceMappingURL=LandingPage.css.map */
