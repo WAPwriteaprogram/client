@@ -9,7 +9,7 @@
 }
 
 header {
-  background: url("../../assets/img/landingBgImg.jpg");
+  background: url("{{url_for('static',filename='assets/img/landingBgImg.jpg')}}");
   height: 100vh;
   background-size: cover;
   background-position: center center;

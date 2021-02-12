@@ -43,7 +43,7 @@
 
 body {
   height: 100vh;
-  background: url("../../assets/img/landingBgImg.jpg");
+  background: url("{{url_for('static',filename='assets/img/landingBgImg.jpg')}}");
   background-size: cover;
   background-position: center center;
   position: relative;
