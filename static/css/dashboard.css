@@ -7,13 +7,13 @@
   color: #fff;
 }
 
-body {
-  background-color: #dedede;
-  color: #333;
-}
-
 header nav ul li.profile {
   float: left;
+}
+
+body {
+  background: #212529;
+  background-size: cover;
 }
 
 .title {
